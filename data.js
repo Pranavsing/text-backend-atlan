@@ -1,9 +1,9 @@
 const models = [
-	{
-		id: 1,
-		name: "Image-to-Text Model",
-		category: "Computer Vision",
-		modelsCode: `
+  {
+    id: 1,
+    name: "Image-to-Text Model",
+    category: "Computer Vision",
+    modelsCode: `
     import torch
   from torch import einsum, nn
   import torch.nn.functional as F
@@ -544,7 +544,7 @@ const models = [
   
   
     `,
-		description: `<div>
+    description: `<div>
     <br></br>
     <div className="he">
       <h1>Image-to-Text Model Description</h1>
@@ -668,7 +668,7 @@ const models = [
       </li>
     </ul>
   </div>`,
-		scenario: `<div>
+    scenario: `<div>
   <br></br>
   <div className="he">
     <h1 className="he">Assistive Technology for the Visually Impaired</h1>
@@ -781,12 +781,12 @@ const models = [
     accurate content moderation.
   </p>
 </div>`,
-	},
-	{
-		id: 2,
-		name: "Language Translation Model",
-		category: "Natural Language Processing",
-		modelsCode: `import tkinter
+  },
+  {
+    id: 2,
+    name: "Language Translation Model",
+    category: "Natural Language Processing",
+    modelsCode: `import tkinter
         import customtkinter as ctk
         from PIL import ImageTk
         import torch
@@ -851,7 +851,7 @@ const models = [
         
         
           `,
-		description: `<div>
+    description: `<div>
           <br></br>
           <div className="he">
             <h1 className="he">Language Translation Model</h1>
@@ -1003,7 +1003,7 @@ const models = [
             effective training strategies.
           </p>
         </div>`,
-		scenario: `<div>
+    scenario: `<div>
         <br></br>
         <div className="he">
           <h1 className="he">Cross-Language Communication in Customer Support</h1>
@@ -1120,12 +1120,12 @@ const models = [
           experience regardless of location.
         </p>
       </div>`,
-	},
-	{
-		id: 3,
-		name: "Image Generator Model",
-		category: "Image Processing Processing",
-		modelCodes: `import pandas as pd
+  },
+  {
+    id: 3,
+    name: "Image Generator Model",
+    category: "Image Processing Processing",
+    modelsCode: `import pandas as pd
         import re
         import nltk
         from nltk.translate import AlignedSent, IBMModel1
@@ -1178,7 +1178,7 @@ const models = [
                
       
         `,
-		description: `<div>
+    description: `<div>
         <br></br>
 
         <div className="he">
@@ -1331,7 +1331,7 @@ const models = [
           content.
         </p>
       </div>`,
-		scenario: `<div>
+    scenario: `<div>
       <br></br>
       <div className="he">
         <h1 className="he">Fashion Design Conceptualization</h1>
@@ -1427,12 +1427,12 @@ const models = [
         conceptual art creation.
       </p>
     </div>`,
-	},
-	// Add more models...
+  },
+  // Add more models...
 ];
 
 const featuredModels = [
-	{ id: 1, name: "Image-to-Text Model", reason: "Most viewed" },
-	// Add more featured models...
+  { id: 1, name: "Image-to-Text Model", reason: "Most viewed" },
+  // Add more featured models...
 ];
 module.exports = { models, featuredModels };
