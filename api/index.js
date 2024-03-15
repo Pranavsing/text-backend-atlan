@@ -1,8 +1,8 @@
 const express = require("express");
 const app = express();
-const port = 4000;
+const port = 3000;
 
-const { models, featuredModels } = require("./data");
+const { models, featuredModels } = require("../data");
 const cors = require("cors");
 app.get("/", (req, res) => {
   res.send("Hello There");
